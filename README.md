@@ -27,6 +27,7 @@ Invoke the tool from the command line. The parameters take the following form:
 ```wordler <pattern> <letters not in word> [yellow] [yellow] [...]``` 
 
 Parameters:
+
 `pattern`: a regular expression, usually needs to be "quoted" to work in your shell. This commonly takes one of three forms:
 
   1. a green letter just appears in the correct position
