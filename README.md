@@ -46,11 +46,11 @@ Imagine you use `wreck` as your first guess. The `r` shows as green.
 This would be encoded as:
   `wordler ".r..." weck`
 
-The <pattern> parameter indicates: 
+The `<pattern>` parameter indicates: 
 - you know the second position is an R
 - you have no clues about the value for the other positions
 
-The <letters not in word> parameter indicates that none of W E C or K appear in the solution
+The `<letters not in word>` parameter indicates that none of W E C or K appear in the solution
 
 Wordler will recommend some options  
   
@@ -60,12 +60,12 @@ Imagine you use `frame` as your second guess. The `r` shows as green and the `a`
 This would be encoded as:
   `wordler ".r[^a].." weckfm a`
 
-The <pattern> parameter indicates: 
+The `<pattern>` parameter indicates: 
 - you know the second position is an R
 - you know that the third position is NOT an A (here this is expressed as `[^a]` but you can use any regular expression) 
 - you have no clues about the value for the remaining positions
 
-The <letters not in word> parameter indicates:
+The `<letters not in word>` parameter indicates:
 - the letter F does NOT appear in the solution
 - the letter M does NOT appear in the solution
 - the letter E does NOT appear in the solution
