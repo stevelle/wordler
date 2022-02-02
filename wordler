@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+export cmd='egrep "^'$1'$" ~/dev/wordle_dict.txt | egrep -v "['$2']"'
+
+if [ "$#" -gt 2 ]; then    
+    i=0
+    for arg do
+        if [ "$i" -gt 1 ]; then 
+            export cmd=$cmd' | egrep '"$arg"
+        fi
+        i=$(( i + 1 ))
+    done
+fi
+
+eval $cmd
