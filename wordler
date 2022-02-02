@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-export cmd='egrep "^'$1'$" ~/dev/wordle_dict.txt | egrep -v "['$2']"'
+# Adjust the path to point at whereever you store your wordle dictionary
+export cmd='egrep "^'$1'$" ~/.wordle_dict.txt | egrep -v "['$2']"'
 
 if [ "$#" -gt 2 ]; then    
     i=0
