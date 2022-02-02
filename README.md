@@ -1,6 +1,6 @@
 # Wordler
 
-Worlder takes two or more command line parameters and suggests words you might use to solve the puzzle.
+Wordler takes two or more command line parameters and suggests words you might use to solve the puzzle.
 I don't endorse the use of this tool, or anything like it.
 
 # Warning
@@ -17,7 +17,7 @@ this is just a small shell script.
 
 1. To get started, guess a word and see what you get as a result.
 2. Encode your result from the prior guess into the command line.
-3. Select your next guess from the proposals offered by Worlder.
+3. Select your next guess from the proposals offered by Wordler.
 4. Repeat until you solve the puzzle for the day.
 
 ## Encoding your result
